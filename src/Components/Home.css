@@ -1,0 +1,61 @@
+.bc {
+    background: url(./Assests/banner-1.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    background-position: center;
+    color:aliceblue;
+}
+
+.Heading {
+    margin-top: 10%;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 93px;
+    margin-left: 18%;
+    
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 900;
+    color: #585965;
+    margin-left: 25%;
+}
+ .wesy h4{
+    margin-left: 90px;
+}
+
+  .button button  {
+    /* border: none; */
+    border-image: linear-gradient(to right, #3785f5, #9f2dc1); 
+    border-image-slice: 1;
+    
+    padding: 15px 50px;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    
+  }
+  .button {
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-left: 40%;
+   
+  }
+  .button button:hover {
+    background-color: #0d1323;
+    /* opacity: 1; */
+  }
+  .events{
+    margin-left: 45%;
+    /* padding-top: 10%; */
+    font-size: 12px;
+    font-weight: 700;
+    color:  #585965;
+    /* opacity: 2; */
+    cursor: pointer;
+  }
+  .events:hover {
+    color: bisque;
+  }

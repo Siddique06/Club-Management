@@ -1,0 +1,92 @@
+ <div className="container">
+        <div className="logo">
+            <div className="img">
+            <img src={logo} alt="lgoo" />
+            </div>
+            
+        </div>
+        <div className="navItem">
+          
+          <div className="pages">
+            <Link to="/">Home</Link>
+          </div>
+          <div className="pages">
+            <Link to='/Events'>Events</Link>
+          </div>
+          <div className="pages">
+            <Link to='/Artist'>Artists</Link>
+          </div>
+          
+          <div className="pages">
+          <Link to='/ED'>Events Detail</Link>
+          </div>
+          <div className="pages">
+            <Link to='/AD'>Artist Detail</Link>
+          </div>
+          <div className="pages">
+            <Link to="/Login">Login</Link>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      .container {
+        height: 15%;
+        width: 100%;
+        background-color: #121321;
+        border-bottom: 1px solid black;
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+    
+    
+    }
+    @media screen and (max-width: 600px) {
+        .container {
+            flex-direction: column;
+        }
+        .navItem {
+          flex-direction: column;
+          background-color: #121321;
+          /* padding-bottom: 100%; */
+          text-decoration: underline;
+        }
+        .img img{
+            /* margin-top: 50%; */
+        }
+    }
+    
+       
+    .navItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #6a6b73;
+    }
+    .pages {
+        padding-top: 0px;
+        
+        margin-left: 100px;
+        padding-bottom: 10px;
+        font-weight:600;
+        /* font-size: medium; */
+        
+        
+    }
+    .pages a{
+        color: #6a6b73;
+        text-decoration: none;
+        /* margin-right: 15px; */
+        
+    }
+    .img img {
+        width: 50px;
+        height: 10%;
+        /* margin-top: 20px; */
+        margin-left: 20px;
+        border-radius: 10px;
+    }

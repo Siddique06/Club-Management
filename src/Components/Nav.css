@@ -1,0 +1,36 @@
+.container {
+    height: 80px;
+    width: 100%;
+    background-color:#121321;
+    border-bottom: 1px solid black;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 1fr; 
+    position: fixed;
+    top: 0;
+    
+}
+.logo img {
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.links ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+.links li a {
+    text-decoration: none;
+    color: #6a6b73;
+}
+.hamburger{
+    display: none;
+    color: white;
+}
+@media (max-width: 768px) {
+    .hamburger{
+
+    }
+}
